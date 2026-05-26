@@ -1,1 +1,32 @@
-body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #1e3c72, #2a5298); color: white; text-align: center; padding-top: 100px; } .card { background: rgba(255, 255, 255, 0.1); padding: 30px; border-radius: 15px; display: inline-block; backdrop-filter: blur(10px); box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3); } button { background-color: #00ea91; color: #1e3c72; border: none; padding: 12px 24px; font-size: 18px; font-weight: bold; border-radius: 25px; cursor: pointer; transition: 0.3s; } button:hover { transform: scale(1.05); background-color: #ffffff; }
+cat << 'EOF' > style.css
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    display: inline-block;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+button {
+    background-color: #00ea91;
+    color: #1e3c72;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    transform: scale(1.05);
+    background-color: #ffffff;
+}
+EOF
